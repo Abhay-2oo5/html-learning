@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <book bookcode="B101">
+        <title>Fundamentals of Database Systems</title>
+        <author>Ramez Elmasri</author>
+        <author>Shamkant B. Navathe</author>
+        <year>2015</author>
+        <publisher>Pearson</publisher>
+    </book>
+    
+    <book bookcode="B102">
+        <title>Design Patterns</title>
+        <author>Erich Gamma</author>
+        <author>Richard Helm</author>
+        <author>Ralph Johnson</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley</publisher>
+    </book>
+
+    <book bookcode="B103">
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <publisher>Prentice Hall</publisher>
+    </book>
+
+    <book bookcode="B104">
+        <title>Introduction to Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <author>Charles E. Leiserson</author>
+        <author>Ronald L. Rivest</author>
+        <year>2009</year>
+        <publisher>MIT Press</publisher>
+    </book>
+
+    <book bookcode="B105">
+        <title>Artificial Intelligence</title>
+        <author>Stuart Russell</author>
+        <author>Peter Norvig</author>
+        <year>2020</year>
+        <publisher>Pearson</publisher>
+    </book>
+</library>
