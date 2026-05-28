@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Dynamism Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    #dynamicText {
+      font-size: 1.5em;
+      padding: 15px;
+      border: 2px solid #333;
+      display: inline-block;
+      cursor: pointer;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Initial text -->
+  <div id="dynamicText">The Power of JavaScript is Dynamism</div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const textElement = document.getElementById('dynamicText');
+
+      // Store original text for restoration
+      const originalText = textElement.textContent;
+      const hoverText = "This is a Demonstration of Dynamism";
+
+      // Mouse over event
+      textElement.addEventListener('mouseover', function () {
+        textElement.textContent = hoverText;
+        textElement.style.backgroundColor = "#f0f0f0";
+        textElement.style.color = "#0077cc";
+      });
+
+      // Mouse out event (restore original text)
+      textElement.addEventListener('mouseout', function () {
+        textElement.textContent = originalText;
+        textElement.style.backgroundColor = "";
+        textElement.style.color = "";
+      });
+    });
+  </script>
+
+</body>
+</html>
