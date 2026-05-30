@@ -1,82 +1,53 @@
-/* General Page Styling */
-body {
-    font-family: "Times New Roman", Times, serif;
-    background-color: #f9f9f9;
-    padding: 20px;
+body{
+    font-family:"Times New Roman";
+    background:#f9f9f9;
+    padding:20px;
 }
 
-/* Container Division */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.container{
+    width:800px;
+    margin:auto;
+    background:white;
+    padding:20px;
 }
 
-/* Table Styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #e6f2ff; /* Light blue table background (ii) */
-    margin-bottom: 20px;
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#e6f2ff;
 }
 
-th, td {
-    border: 1px solid #b0c4de;
-    padding: 12px;
-    text-align: left;
+th,td{
+    border:1px solid #000;
+    padding:8px;
 }
 
-/* Table Header Formatting (i & ii) */
-th {
-    font-family: Arial, sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    background-color: #4a90e2; /* Different shade for header */
-    color: white;
+th{
+    font-family:Arial;
+    font-size:14pt;
+    background:#4a90e2;
+    color:white;
 }
 
-/* Table Body Content Font (i) */
-tbody td {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12pt;
+td{
+    font-size:12pt;
 }
 
-/* Alternate Row Colors (ii) */
-tbody tr:nth-child(odd) {
-    background-color: #ffffe0; /* Light yellow */
+tr:nth-child(odd){
+    background:#ffffe0;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #e0f7fa; /* Light green / light cyan tint */
+tr:nth-child(even){
+    background:#e0f7fa;
 }
 
-/* Ordered List Styling (iii) */
-ol {
-    font-family: "Arial", sans-serif;
-    font-size: 12pt;
-    background-color: #e6f2ff; /* Light blue background */
-    padding: 20px 40px;
-    border-radius: 4px;
+ol{
+    font-family:Arial;
+    background:#e6f2ff;
+    padding:15px;
 }
 
-li {
-    margin-bottom: 8px;
-}
-
-/* Navigation Link Styling */
-.nav-link {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 8px 16px;
-    background-color: #4a90e2;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-.nav-link:hover {
-    background-color: #357abd;
+a{
+    display:inline-block;
+    margin-top:10px;
 }
