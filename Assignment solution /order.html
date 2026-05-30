@@ -1,57 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Customer Order Details</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h2>Customer Order Summary</h2>
-        
-        <!-- Ordered Items Table -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Item Code</th>
-                    <th>Item Name</th>
-                    <th>Unit Price</th>
-                    <th>Ordered Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>D001</td>
-                    <td>Organic Whole Milk (1L)</td>
-                    <td>$3.50</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>D003</td>
-                    <td>Cheddar Cheese (200g)</td>
-                    <td>$4.20</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>D004</td>
-                    <td>Greek Yogurt (500g)</td>
-                    <td>$5.00</td>
-                    <td>3</td>
-                </tr>
-            </tbody>
-        </table>
+<div class="container">
+    <h2>Customer Order Summary</h2>
 
-        <!-- Ordered List Representation for Requirement (iii) -->
-        <h3>Order Dispatch Checklist</h3>
-        <ol>
-            <li>Item Code: D001 | Organic Whole Milk (1L) (Qty: 2)</li>
-            <li>Item Code: D003 | Cheddar Cheese (200g) (Qty: 1)</li>
-            <li>Item Code: D004 | Greek Yogurt (500g) (Qty: 3)</li>
-        </ol>
+    <table border="1">
+        <tr>
+            <th>Item Code</th>
+            <th>Item Name</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>D001</td>
+            <td>Organic Whole Milk (1L)</td>
+            <td>$3.50</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>D003</td>
+            <td>Cheddar Cheese (200g)</td>
+            <td>$4.20</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>D004</td>
+            <td>Greek Yogurt (500g)</td>
+            <td>$5.00</td>
+            <td>3</td>
+        </tr>
+    </table>
 
-        <a href="index.html" class="nav-link">&larr; Back to Inventory</a>
-    </div>
+    <h3>Dispatch Checklist</h3>
+    <ol>
+        <li>D001 - Organic Whole Milk (Qty: 2)</li>
+        <li>D003 - Cheddar Cheese (Qty: 1)</li>
+        <li>D004 - Greek Yogurt (Qty: 3)</li>
+    </ol>
+
+    <a href="index.html">Back to Inventory</a>
+</div>
 
 </body>
 </html>
